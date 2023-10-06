@@ -11,4 +11,4 @@ P. Huwiler, D. Pradovera, and J. Schiffmann, _Plug-and-play adaptive surrogate m
 Sample scripts for surrogate training and testing are in `tutorial_train_*.m` and `tutorial_test_*.m`, respectively. The suffixes `1p1` and `1p2` refer to the number of parameters, 1 and 2 (in addition to frequency), respectively.
 
 ## Customization
-The target QoIs are defined in the function scripts `getSampleImpedance.m` (QoIs depending on both frequency and parameters) and `getSampleForce.m` (QoIs depending only on parameters). They can be customized to compute any desired QoI. The frequency and parameter ranges are defined near the beginning of `tutorial_train_*.m`, and can be easily adapted to new settings.
+The target QoIs are defined in the function scripts `getSampleImpedance_*.m` (QoIs depending on both frequency and parameters) and `getSampleForce_*.m` (QoIs depending only on parameters). They can be customized to compute any desired QoI. The frequency and parameter ranges are defined near the beginning of `tutorial_train_*.m`, and can be easily adapted to new settings.
