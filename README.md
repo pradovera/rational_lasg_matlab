@@ -1,8 +1,15 @@
 # README
 
-This repository contains minimal code for running the adaptive hybrid rational-LASG algorithm from the upcoming paper:
+This repository contains minimal code for running the adaptive hybrid rational-LASG algorithm from the paper
+>P. Huwiler, D. Pradovera, and J. Schiffmann, _Plug-and-play adaptive surrogate modeling of parametric nonlinear dynamical systems in frequency domain_, International Journal for Numerical Methods in Engineering, 2023
 
-P. Huwiler, D. Pradovera, and J. Schiffmann, _Plug-and-play adaptive surrogate modeling of parametric nonlinear dynamical systems in frequency domain_ (2023)
+Published version [here](https://doi.org/10.1002/nme.7487). Preprint publicly available [here](http://infoscience.epfl.ch/record/307613?ln=en).
+
+## Disclaimer
+The results in the above paper have been obtained by applying the code in this repository to a frequency-domain gas bearing model, which is *not* included in this repository. For more details on the bearing model, we refer to
+>E. Guenat and J. Schiffmann, _Effects of humid air on aerodynamic journal bearings_, Tribology International, 2018
+
+Published version [here](https://doi.org/10.1016/j.triboint.2018.06.002). Preprint publicly available [here](http://infoscience.epfl.ch/record/256240?ln=en).
 
 ## Prerequisites
 * **MATLAB**&reg; (coded and tested on version R2023a)
